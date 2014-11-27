@@ -19,15 +19,15 @@ str(mdl)
 # Basic plots
 plot(mdl$date, mdl$XBenzene)
 hist(mdl$XBenzene,
-     main="Distribution od detection limit for Benzene (2003-11-10 - 2014-04-01)",
-     xlab="µg/m3")
+     main="Distribution of detection limit for Benzene (2003-11-10 - 2014-04-01)",
+     xlab="Âµg/m3")
 boxplot(mdl$XBenzene)
 qqnorm(mdl$XBenzene); qqline(mdl$XBenzene)
 
 plot(mdl$date, mdl$XToluene)
 hist(mdl$XToluene,
-     main="Distribution od detection limit for Toluene (2003-11-10 - 2014-04-01)",
-     xlab="µg/m3")
+     main="Distribution of detection limit for Toluene (2003-11-10 - 2014-04-01)",
+     xlab="Âµg/m3")
 boxplot(mdl$XToluene)
 qqnorm(mdl$XToluene); qqline(mdl$XToluene)
 
